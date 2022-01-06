@@ -1,0 +1,193 @@
+*{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    text-decoration:none;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.header{
+    width: 100%;
+    
+    padding-top: 5%;
+    background-image:url(../img/home.jpg);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.header-logo{
+    width: 100%;
+    margin-bottom: 3rem;
+    text-align:center;
+}
+
+.header-logo-enlace{
+    font-family: 'First Job', sans-serif;
+    font-size:1.8rem;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+}
+
+.header-main{
+     width: 100%;
+      text-align: center;
+}
+
+.header-main-fotografia{
+    
+    width: 11rem;
+    height: 13rem;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+
+.header-main-parrafo{
+    width: 96%;
+    margin: 3% auto 0 auto;
+    padding: 1%;
+    text-align:justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .9rem;
+    background-color:rgba(255, 255, 255, 0.808);
+    color:black;
+    box-shadow: 4px 4px 4px aquamarine;
+}
+
+.menu{
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.3);
+    text-align: right;
+    display:flex;
+    flex-direction: column;
+     border-top: 5px solid white;
+}
+.menu-enlaces{
+    padding: 1%;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1.2rem;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.menu-enlaces:hover{
+    background-color: white;
+    color:aquamarine;
+}
+
+.menu-active{
+    background-color: white;
+    color:aquamarine;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+h2{
+    color:white;
+    text-shadow: 1px 1px 4px black;
+    font-family: 'First Job';
+    font-size: 3rem;
+}
+h3{
+    color:white;
+    text-shadow: 1px 1px 4px black;
+    font-family: 'First Job';
+    font-size: 1.5rem;
+}
+.titulo{
+       padding:5%;
+       background-color:aquamarine; 
+  }
+.flexible a img{
+    width: 50%;
+    margin:1rem 0;
+    border: 10px solid white;
+    box-shadow: 4px 4px 10px aquamarine;
+}
+span{
+	display: none;
+	font-size: 4em;
+	position: fixed;
+	right: 3%;
+	bottom: 4%;
+    cursor:pointer;
+    color:aquamarine;
+}
+span:hover{color:white;}
+.pie{
+    width: 100%;
+    padding:3% 0% 0% 0%;
+    background:aliceblue;
+    text-align: center;
+}
+.redes__enlaces{
+    font-size: 3em;
+    margin:0% 3%;
+}
+.instagram{ color:orange}
+.facebook{color:blue;}
+.linkedin{color:navy;}
+.derechos{
+    width: 100%;
+    padding:1% 0%;
+    background-color: darkgray;
+    font-family: 'Yusei Magic', sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (min-width:700px){
+    .titulo{
+        padding: 1%;
+    }
+    
+}
+@media screen and (min-width:900px){
+    .header{
+        height: 100vh;
+        padding-top:7rem
+    }
+    .header-main-parrafo{
+        width: 70%;
+        font-size: 1.2rem;
+        border-radius: 10px;
+    }
+
+    .menu{
+          flex-direction: row;
+          position: fixed;
+          bottom:0;
+          justify-content: space-between;
+          border-top: none;
+          text-align: center;
+          align-items:center;
+          border-bottom: 5px solid aquamarine;
+    }
+    .menu-enlaces{
+        width: 100%;
+        height: 100%;
+        font-size: 1rem;
+    }
+
+    .flexible{
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .flexible a img{
+        width: 400px;
+        height: 300px;
+        margin:2%;
+    }
+
+}

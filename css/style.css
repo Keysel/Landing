@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: white;
 }
 
 .header{
@@ -71,7 +71,7 @@ body{
 }
 .menu-enlaces{
     padding: 1%;
-    color:white;
+    color:black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:1.2rem;
     font-style: oblique;
@@ -113,7 +113,7 @@ h3{
     width: 50%;
     margin:1rem 0;
     border: 10px solid white;
-    box-shadow: 4px 4px 10px aquamarine;
+    box-shadow: 4px 4px 20px gray;
 }
 span{
 	display: none;
